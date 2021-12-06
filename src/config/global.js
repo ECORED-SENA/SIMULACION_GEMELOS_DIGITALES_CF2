@@ -70,11 +70,11 @@ export default {
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
+      //{
+      //  icono: 'fas fa-sitemap',
+      //  titulo: 'Sintesis',
+      //  nombreRuta: 'sintesis',
+      //},
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -111,139 +111,153 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Alcrudo, J. (19 de Abril de 2021 ). Academia.edu. Obtenido de ',
+      link: 'https://www.academia.edu/29809639/FORMACION_NX_CAD_BASICO',
+    },
+    {
+      referencia:
+        '3splus. (16 de Julio de 2018). Tutorial Básico introductorio a modelado CAD NX 10. Obtenido de ',
+      link: 'https://youtu.be/iGTENoC7ryg',
+    },
+    {
+      referencia:
+        'Aguilar, L. J. (2017). INDUSTRIA 4.0 "LA CUARTA REVOLUCION INDUSTRIAL". Mexico: Alfaomega. Canal de youtube Jonathan Andres Graciano Uribe. (21 de 10 de 2021). Obtenido de ',
+      link: 'https://youtu.be/IhRoPvrUmbw',
+    },
+    {
+      referencia:
+        'Canal de Youtube roger restrepo. (21 de 10 de 2021). Obtenido de ',
+      link: 'https://youtu.be/h9zrCpJwVyQ',
+    },
+    {
+      referencia:
+        'Inge, L. (s.f.). unidad 2 ensambles utilizando NX. Obtenido de ',
+      link: 'https://youtu.be/J5h38RBj_hI',
+    },
+    {
+      referencia:
+        'Instituto-Mariano. (20 de Noviembre de 2019). NX Curso drawing y acotado FMC0 M01. Obtenido de ',
+      link: 'https://youtu.be/pFcMlBL5Ps0',
+    },
+    {
+      referencia:
+        'Ming, C. L., Wenjin , T., Amir, G., & Krishna, K. (2019). NX 12 for Engineering Design. MO 65409, USA. ',
+    },
+    {
+      referencia:
+        'Mundo-Turorial/Turorial-world. (10 de Octubre de 2017). Siemens NX. Pieza 3D. Tutorial. Obtenido de ',
+      link: 'https://youtu.be/UeJ1Yegal9E',
+    },
+    {
+      referencia:
+        'Sham, T. (2018). Siemens NX 12.0 for Designers (11th Edition). Schererville, Indiana 46375, USA: CADCIM Technologies. ',
+    },
+    {
+      referencia: 'Siemens. (2019). Introduccion a NX MCD: Course:DI-VIRTCOM. ',
+    },
+    {
+      referencia:
+        'Siemens. (Abril de 2020). Documentación didactica para cursos de formación "DigitalTwin@Education Module 150-004" ',
+    },
+    {
+      referencia: 'Siemens. (21 de 10 de 2021). Obtenido de ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
-    },
-    {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://docs.sw.siemens.com/es-ES/product/209349590/doc/PL20200507135732916.mechatronics/html/id1101745',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Acopladores',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Elementos mecánicos que permiten transmitir movimiento entre componentes de una máquina. Entre estos se encuentran engranajes el sistema cremallera piñón, poleas y correas y levas mecánicas.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Adaptador de señales',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Convierte a través de señales un tipo de movimiento a otro y crea señales de entrada y salida para la comunicación con el PLC_SIMAdvanced.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Bloque de expresiones',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Facilita la asignación de las variables de entrada, salida y la relación entre ellas durante la ejecución de un proceso.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Cuerpo Rígido',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Define las propiedades físicas como la masa, inercia a un componente mecánico del modelo funcional.',
     },
     {
-      termino: 'Moda',
+      termino: 'Cuerpo de colisión',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Define un cuerpo con propiedades físicas que permiten detectar la colisión con otro cuerpo rígido.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Control de posición',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Permite limitar la posición de un cuerpo rígido a través de una junta de movimiento, las dos variables cinemáticas controladas con esta herramienta son posición y velocidad.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Control de velocidad',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Limita la velocidad de un componente mecánico dependiendo del tipo de junta definida entre los cuerpos rígidos.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Editor de secuencias',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Modifica y edita cada una de las operaciones para realizar un proceso, estas actividades (operaciones) pueden estar encadenadas unas con otras o pueden ejecutarse en forma independiente.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'MCD',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Mecatrónica conceptual para diseñadores (MCD) es una aplicación que se utiliza para diseñar y simular de forma interactiva el movimiento complejo de los sistemas electromecánicos.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Juntas de unión',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Definen el tipo de movimiento entre los componentes de un sistema mecánico. Estas juntas pueden ser de revolución, deslizantes, cilíndricas, esféricas entre otras.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Sensores de colisión',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Activador de eventos que permite detectar el momento que dos cuerpos entran en contacto y activar una señal.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Superficie de transporte',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Define un sistema de transmisión por banda, para esto es necesario definir la superficie como un cuerpo de colisión.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        '<b>Tema 1</b>: Configuración de componentes del sistema mecatrónico.<br>(Canal de youtube Jonathan Andres Graciano Uribe, 2021)',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://youtu.be/IhRoPvrUmbw',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        '<b>Tema 1</b>: Configuración de componentes del sistema mecatrónico.<br>(Canal de youtube Jonathan Andres Graciano Uribe, 2021)',
+      tipo: 'Video',
+      link: 'https://youtu.be/tgHJ6E6tVwc',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        '<b>Tema 2</b>: Simulación basada en operaciones.<br>(Canal de Youtube roger restrepo, 2021)',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://youtu.be/h9zrCpJwVyQ',
+    },
+    {
+      texto:
+        '<b>Tema 2</b>: Simulación basada en operaciones.<br>(Canal de Youtube roger restrepo, 2021)',
+      tipo: 'Video',
+      link: 'https://youtu.be/_6rF0kI6tBk',
+    },
+    {
+      texto:
+        '<b>Tema 1</b>: Configuración de componentes del sistema mecatrónico.<br><b>Tema 2</b>: Simulación basada en operaciones.<br>(Siemens, Documentación didáctica /para cursos de formación)',
+      tipo: 'Documento electrónico',
+      link:
+        'https://docplayer.es/187820804-Documentacion-didactica-para-cursos-de-formacion.html',
     },
   ],
   creditos: {
@@ -259,7 +273,22 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Oscar Riveros',
+        cargo: 'Experto Temático',
+        centro: 'Centro diseño y metrología',
+      },
+      {
+        nombre: 'Leydy Jhuliana Jaramillo Mejia',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de gestión industrial',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluador instruccional',
+        centro: 'Centro de gestión industrial - Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -267,53 +296,58 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de comercio y servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jhon Jairo Urueta Alvarez',
+        cargo: 'Desarrollo Front-End',
+        centro: 'Centro de comercio y servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro industrial del diseño y la manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de comercio y servicios - Regional Tolima',
       },
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de comercio y servicios - Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de comercio y servicios - Regional Tolima',
       },
     ],
   },
