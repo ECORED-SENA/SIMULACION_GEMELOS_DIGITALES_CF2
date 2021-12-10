@@ -24,10 +24,13 @@
         .row.justify-content-center.mb-5(data-aos="fade-left")
           .col-lg-9
             .titulo-sexto.color-acento-contenido
-              h5 #[span.txt-deco1 Figura 1.] Aplicación de curva
+              h5 #[span.txt-deco1 Figura 1.] Interface del MCD
             figure
               img(src='@/assets/curso/img2.png', style="width: 1200px").m-auto
               figcaption.mt-3 #[b Nota.] Adaptada del sistema CAD NX 12.
+        figure.mb-5
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/pDtQ1nO3yhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         #t_1_1
         .titulo-segundo.color-secundario
           h2 1.1 Panel de herramientas
@@ -62,7 +65,7 @@
         .row.justify-content-center(data-aos="fade-left")
           .col-lg-10
             .titulo-sexto.color-acento-contenido
-              h5 #[span.txt-deco1 Figura 2.] Panel de herramientas Motion
+              h5 #[span.txt-deco1 Figura 2.] Panel de herramientas
             figure
               img(src='@/assets/curso/img5.png', style="width: 1200px").m-auto
               figcaption.mt-3 #[b Nota.] Adaptada del sistema CAD NX 12.
@@ -106,7 +109,7 @@
     br
     .row.py-5.align-items-center.justify-content-between
       .col-4
-        h3.text-white.mb-0.text-deco2 #[b Cuerpo en movimiento]
+        h3.text-white.mb-0.text-deco2 #[b Cuerpo rígido]
       .col-2
         a(href="#menu1")
           figure.efect1
@@ -123,7 +126,7 @@
               figcaption.mt-3 #[b Nota.] Adaptada del sistema CAD NX 12.
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/iXInTUwPypw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         hr
         #2A
         br
@@ -145,7 +148,7 @@
               figcaption.mt-3 #[b Nota.] Adaptada del sistema CAD NX 12.
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/JBNR44fJ7M4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         hr
         #3A
         br
@@ -167,7 +170,7 @@
               figcaption.mt-3 #[b Nota.] Adaptada del sistema CAD NX 12.
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/6lGVWiIvNTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         hr
         #4A
         br
@@ -198,14 +201,14 @@
               figcaption.mt-3 #[b Nota.] Adaptada del sistema CAD NX 12.
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/aV-BKY_MXlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador.mb-5
     #t_1_3
     .titulo-segundo.color-secundario
       h2 1.3 Configuración de sistema eléctrico
     .row.align-items-center
       .col-lg-6.mb-4.mb-lg-0
-        p.mb-5 En este grupo de herramientas se encuentran funciones que permiten definir sensores de posición, colisión, controles de velocidad, posición, superficies de transporte y adaptadores de señales entre otros. Detalla la digura 9.
+        p.mb-5 En este grupo de herramientas se encuentran funciones que permiten definir sensores de posición, colisión, controles de velocidad, posición, superficies de transporte y adaptadores de señales entre otros. Detalla la figura 9.
         .row.justify-content-center.mb-5(data-aos="fade-right")
           .col-lg-12
             .titulo-sexto.color-acento-contenido
@@ -240,7 +243,7 @@
                     h3.text-deco4 Video tutorial
                     p.mb-0 Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.
                   .col-lg-3
-                    a.boton.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-primario.me-3(href="https://www.youtube.com/watch?v=FMptMIpzzB4" target="_blank" type="application/pdf")
                       span Ver video
       .py-3.py-md-4(titulo="Control de posición")
         .row.align-items-center.justify-content-center
@@ -265,7 +268,7 @@
                     h3.text-deco4 Video tutorial
                     p.mb-0 Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.
                   .col-lg-3
-                    a.boton.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-primario.me-3(href="https://www.youtube.com/watch?v=XnbohOhFcLA" target="_blank" type="application/pdf")
                       span Ver video
       .py-3.py-md-4(titulo="Control de velocidad")
         .row.align-items-center.justify-content-center
@@ -290,7 +293,7 @@
                     h3.text-deco4 Video tutorial
                     p.mb-0 Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.
                   .col-lg-3
-                    a.boton.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-primario.me-3(href="https://www.youtube.com/watch?v=dQD1CXIDQk4" target="_blank" type="application/pdf")
                       span Ver video
       .py-3.py-md-4(titulo="Superficie de transporte")
         .row.align-items-center.justify-content-center
@@ -315,7 +318,7 @@
                     h3.text-deco4 Video tutorial
                     p.mb-0 Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.
                   .col-lg-3
-                    a.boton.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-primario.me-3(href="https://www.youtube.com/watch?v=vclrM22Gp6M" target="_blank" type="application/pdf")
                       span Ver video
       .py-3.py-md-4(titulo="Adaptador de señales")
         .row.align-items-center.justify-content-center
@@ -340,7 +343,7 @@
                     h3.text-deco4 Video tutorial
                     p.mb-0 Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.
                   .col-lg-3
-                    a.boton.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-primario.me-3(href="https://www.youtube.com/watch?v=kCnD4uZt6yA" target="_blank" type="application/pdf")
                       span Ver video
   
 </template>

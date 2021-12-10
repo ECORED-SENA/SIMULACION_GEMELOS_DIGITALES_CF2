@@ -61,7 +61,7 @@
                     h3.text-deco4 Video tutorial
                     p.mb-0 Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.
                   .col-lg-3
-                    a.boton.color-primario.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-primario.me-3(href="https://www.youtube.com/watch?v=6XMsNzNNMgk" target="_blank" type="application/pdf")
                       span Ver video
         .row.justify-content-center.mb-5(data-aos="fade-left")
           .col-lg-9
